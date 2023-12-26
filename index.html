@@ -15,11 +15,30 @@
     <title>Bankist</title>
   </head>
   <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Login details</h1>
+      <div class="modal_grid">
+        <p><strong>Username</strong></p>
+        <p><strong>Password</strong></p>
+        <p><strong>Locale</strong></p>
+
+        <p>JS</p>
+        <p>1111</p>
+        <p>Denmark</p>
+
+        <p>JD</p>
+        <p>2222</p>
+        <p>US</p>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
     <!-- TOP NAVIGATION -->
     <nav>
       <p class="welcome">Log in to get started</p>
       <img src="logo.png" alt="Logo" class="logo" />
       <form class="login">
+        <img src="info_icon.png" alt="login-info" class="info-icon" />&nbsp;
         <input
           type="text"
           placeholder="user"
